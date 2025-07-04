@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rolex Golf Excellence Program – Mumbai</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+    }
+    h1, h2 {
+      color: #006400;
+    }
+    form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 100%;
+      margin: 8px 0 20px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 12px 20px;
+      background-color: #006400;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004d00;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <h1>Rolex Golf Excellence Program – Mumbai</h1>
+    <p><strong>Event Location:</strong> Mumbai Golf Club</p>
+    <p><strong>Reward:</strong> Rolex Oyster Perpetual Datejust</p>
+    <p><strong>Registration Type:</strong> Premium Player Index</p>
+
+    <h2>A. Personal Details</h2>
+    <label>Full Name:</label>
+    <input type="text" name="fullName" required>
+
+    <label>Date of Birth:</label>
+    <input type="date" name="dob" required>
+
+    <label>Gender:</label>
+    <select name="gender" required>
+      <option value="">Select</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+
+    <label>Nationality:</label>
+    <input type="text" name="nationality" required>
+
+    <label>Contact Number (+91):</label>
+    <input type="text" name="contact" required>
+
+    <label>Email Address:</label>
+    <input type="email" name="email" required>
+
+    <label>Residential Address:</label>
+    <textarea name="address" rows="3" required></textarea>
+
+    <h2>B. Golf Credentials</h2>
+    <label>Golf Club Membership ID (if any):</label>
+    <input type="text" name="membershipId">
+
+    <label>Primary Golf Club Affiliation:</label>
+    <input type="text" name="primaryClub">
+
+    <label>Current Handicap Index:</label>
+    <input type="text" name="handicap">
+
+    <label>Years of Playing Experience:</label>
+    <input type="number" name="experience">
+
+    <label>Notable Tournaments Played / Achievements:</label>
+    <textarea name="achievements" rows="3"></textarea>
+
+    <h2>C. Identity Verification</h2>
+    <label>Government ID Number (Aadhaar / PAN / Passport):</label>
+    <input type="text" name="govId" required>
+
+    <label>Upload Passport Size Photograph:</label>
+    <input type="file" name="photo" accept="image/*" required>
+
+    <label>Signature:</label>
+    <input type="text" name="signature">
+
+    <label>Date:</label>
+    <input type="date" name="sigDate">
+
+    <h2>D. Declaration</h2>
+    <p>I hereby declare that the above information is true to the best of my knowledge. I understand that misrepresentation may lead to disqualification from the Rolex Golf Excellence Program.</p>
+
+    <label><input type="checkbox" required> I agree to the terms and conditions of the Rolex Golf Excellence Program.</label>
+
+    <button type="submit">Submit Registration</button>
+  </form>
+
+</body>
+</html>
